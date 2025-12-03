@@ -1,0 +1,29 @@
+# Python / env
+__pycache__/
+*.pyc
+.venv/
+venv/
+ENV/
+env/
+venv/
+venv/*
+
+# large files & models / data
+models/
+data_raw/
+data/
+*.csv
+*.npz
+*.npy
+*.h5
+*.pkl
+*.joblib
+*.keras
+*.ckpt
+*.tflite
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
