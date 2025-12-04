@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="assets/banner.png" width="850"/>
+  <img src="assets/banner.png" width="450"/>
 </p>
 
 <h1 align="center">🏏 Player Performance Prediction</h1>
@@ -30,7 +30,7 @@ A fully functional end-to-end data pipeline.
 ## 🚀 Demo (GIF)
 
 <p align="center">
-  <img src="assets/video demo.gif" width="850"/>
+  <img src="assets/video_demo.gif" width="850"/>
 </p>
 
 ---
@@ -38,7 +38,7 @@ A fully functional end-to-end data pipeline.
 ## 🏗 Project Architecture
 
 <p align="center">
-  <img src="assets/architecture diagram.png" width="850"/>
+  <img src="assets/architecture_diagram.png" width="450"/>
 </p>
 
 ---
@@ -60,7 +60,7 @@ A fully functional end-to-end data pipeline.
 
 ### 🔹 **Player Profile**
 <p align="center">
-  <img src="assets/Player profile.png" width="800"/>
+  <img src="assets/Player_profile.png" width="800"/>
 </p>
 
 - Historical performance overview  
