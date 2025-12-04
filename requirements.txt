@@ -1,7 +1,5 @@
 streamlit==1.25.0
 pandas
-numpy
 scikit-learn
 plotly
 joblib
-Pillow==11.2.1
