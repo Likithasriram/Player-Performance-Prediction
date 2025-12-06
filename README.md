@@ -158,7 +158,6 @@ streamlit run dashboard/Home.py
 Open browser at → http://localhost:8501
 ```
 
-```
 ##🤖 Models Used
 
 ### Machine Learning Models
