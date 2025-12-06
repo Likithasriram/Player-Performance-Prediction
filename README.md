@@ -106,7 +106,7 @@ A fully functional end-to-end data pipeline.
 
 ## 📂 Folder Structure
 
-```text
+```
 Player-Performance-Prediction/
 ├── dashboard/
 │   ├── Home.py
@@ -132,7 +132,7 @@ Player-Performance-Prediction/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -156,8 +156,9 @@ pip install -r requirements.txt
 streamlit run dashboard/Home.py
 
 Open browser at → http://localhost:8501
+```
 
-
+```
 ##🤖 Models Used
 
 ### Machine Learning Models
