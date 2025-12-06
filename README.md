@@ -158,20 +158,20 @@ streamlit run dashboard/Home.py
 Open browser at → http://localhost:8501
 
 
-**## 🤖 Models Used**
+##🤖 Models Used
 
-### **Machine Learning Models**
+### Machine Learning Models
 - Linear Regression  
 - Random Forest Regressor  
 - Gradient Boosting Regressor  
 
-### **Time-Series Models**
+### Time-Series Models
 - ARIMA  
 - SARIMA  
 - LSTM (Neural Network)
 
 
-**## 🧠 Skills Demonstrated**
+## 🧠 Skills Demonstrated
 - ✔ Data Cleaning & Preprocessing  
 - ✔ Feature Engineering  
 - ✔ ML Regression Modeling  
@@ -197,7 +197,7 @@ This project demonstrates practical, transferable skills used in industry analyt
 - **Actionable forecasting**: produces forecasts and per-player summaries that can be used by analysts and coaches for decision-making.
 - **Reproducibility & structure**: modular code and clear documentation make the work reproducible and production-ready.
 
-**## Future Enhancements**
+## Future Enhancements
 
 Planned improvements to make the project production-grade:
 - Add automatic data ingestion from a live API or streaming source.
@@ -207,9 +207,9 @@ Planned improvements to make the project production-grade:
 - Improve forecasting accuracy with ensembling and external features (weather, pitch).
 
 
-**## 👨‍💻 Author**
+## 👨‍💻 Author
 
-**Likhitha P**  
+Likhitha P  
 Data Analyst & Machine Learning Enthusiast
 
 
