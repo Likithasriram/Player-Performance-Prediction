@@ -17,6 +17,7 @@ This project predicts batsman & bowler performance, visualizes insights, and pro
 This project processes raw cricket match data, engineers cricket-specific features, trains ML & forecasting models, and presents results in an interactive dashboard.
 
 It demonstrates:
+
 - **Data Engineering**
 - **Feature Engineering**
 - **ML Model Development**
@@ -41,6 +42,18 @@ A fully functional end-to-end data pipeline.
   <img src="assets/architecture_diagram.png" width="450"/>
 </p>
 
+---
+
+## 🛠 Tech Stack
+
+- **Python**  
+- **Streamlit**  
+- **Scikit-Learn**  
+- **Pandas, NumPy**  
+- **Statsmodels (ARIMA/SARIMA)**  
+- **TensorFlow/Keras (LSTM)**  
+- **Matplotlib / Plotly**
+  
 ---
 
 ## 📊 Dashboard Features
@@ -93,29 +106,29 @@ A fully functional end-to-end data pipeline.
 
 ## 📂 Folder Structure
 
+```text
 Player-Performance-Prediction/
-│
 ├── dashboard/
-│ ├── Home.py
-│ └── pages/
-│ └── Player_Profile.py
+│   ├── Home.py
+│   └── pages/
+│       └── Player_Profile.py
 │
 ├── Scripts/
-│ ├── feature_engineering.py
-│ ├── model_training.py
-│ └── predict_module.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   └── predict_module.py
 │
 ├── data_clean/
 ├── models/
 │
 ├── assets/
-│ ├── banner.png
-│ ├── architecture_diagram.png
-│ ├── home.png
-│ ├── player_profile.png
-│ ├── prediction.png
-│ ├── forecast.png
-│ └── video_demo.gif
+│   ├── banner.png
+│   ├── architecture_diagram.png
+│   ├── home.png
+│   ├── player_profile.png
+│   ├── prediction.png
+│   ├── forecast.png
+│   └── video_demo.gif
 │
 ├── requirements.txt
 └── README.md
@@ -123,9 +136,10 @@ Player-Performance-Prediction/
 
 ---
 
-## 🔧 How to Run Locally
+**### 🔧 How to Run Locally**
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Likithasriram/Player-Performance-Prediction.git
 cd Player-Performance-Prediction
@@ -133,6 +147,7 @@ cd Player-Performance-Prediction
 2️⃣ Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate     # Windows
+source venv/bin/activate  # macOS/Linux
 
 3️⃣ Install Dependencies
 pip install --upgrade pip
@@ -141,51 +156,48 @@ pip install -r requirements.txt
 4️⃣ Run the Streamlit App
 streamlit run dashboard/Home.py
 
-
 Open browser at → http://localhost:8501
 
-🤖 Models Used
-Machine Learning Models
+```markdown
+**## 🤖 Models Used**
 
-Linear Regression
+### **Machine Learning Models**
+- Linear Regression  
+- Random Forest Regressor  
+- Gradient Boosting Regressor  
 
-Random Forest Regressor
+### **Time-Series Models**
+- ARIMA  
+- SARIMA  
+- LSTM (Neural Network)
 
-Gradient Boosting Regressor
 
-Time-Series Models
+**## 🧠 Skills Demonstrated**
+- ✔ Data Cleaning & Preprocessing  
+- ✔ Feature Engineering  
+- ✔ ML Regression Modeling  
+- ✔ LSTM & ARIMA Forecasting  
+- ✔ Modular Python Development  
+- ✔ Streamlit Dashboard Design  
+- ✔ Git & Version Control  
+- ✔ End-to-End Pipeline Building  
 
-ARIMA
 
-SARIMA
+**## 📝 Resume-Ready Description**
 
-LSTM (Neural Network)
+Developed an end-to-end cricket player performance prediction system using Python.  
+Built ETL pipelines, engineered cricket-specific features, and trained ML + LSTM forecasting models to predict future runs and wickets.  
+Designed an interactive Streamlit dashboard to visualize player profiles, predictions, and forecasting trends.
 
-🧠 Skills Demonstrated
 
-✔ Data Cleaning & Preprocessing
-✔ Feature Engineering
-✔ ML Regression Modeling
-✔ LSTM & ARIMA Forecasting
-✔ Modular Python Development
-✔ Streamlit Dashboard Design
-✔ Git & Version Control
-✔ End-to-End Pipeline Building
-
-📝 Resume-Ready Description
-
-Developed an end-to-end cricket player performance prediction system using Python.
-Implemented ETL pipelines, engineered cricket-specific features, and trained ML + LSTM forecasting models to predict future runs and wickets.
-Built an interactive Streamlit dashboard to visualize insights, trends, and player forecasting.
-
-## Why this project matters
+**## Why this project matters**
 
 This project demonstrates practical, transferable skills used in industry analytics pipelines:
 - **End-to-end workflow**: data ingestion, cleaning, feature engineering, modeling, and interactive visualization.
 - **Actionable forecasting**: produces forecasts and per-player summaries that can be used by analysts and coaches for decision-making.
 - **Reproducibility & structure**: modular code and clear documentation make the work reproducible and production-ready.
 
-## Future Enhancements
+**## Future Enhancements**
 
 Planned improvements to make the project production-grade:
 - Add automatic data ingestion from a live API or streaming source.
@@ -195,9 +207,11 @@ Planned improvements to make the project production-grade:
 - Improve forecasting accuracy with ensembling and external features (weather, pitch).
 
 
-👨‍💻 Author
+**## 👨‍💻 Author**
 
-Likitha Sriram
+**Likhitha P**  
 Data Analyst & Machine Learning Enthusiast
 
-🔗 GitHub: https://github.com/Likithasriram
+
+🔗 GitHub : https://github.com/Likithasriram
+🔗 Linkedin: www.linkedin.com/in/likitha-sriram1220
