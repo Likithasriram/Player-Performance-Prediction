@@ -136,10 +136,9 @@ Player-Performance-Prediction/
 
 ---
 
-**### 🔧 How to Run Locally**
+## 🔧 How to Run Locally
 
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/Likithasriram/Player-Performance-Prediction.git
 cd Player-Performance-Prediction
@@ -158,7 +157,7 @@ streamlit run dashboard/Home.py
 
 Open browser at → http://localhost:8501
 
-```markdown
+
 **## 🤖 Models Used**
 
 ### **Machine Learning Models**
@@ -183,14 +182,15 @@ Open browser at → http://localhost:8501
 - ✔ End-to-End Pipeline Building  
 
 
-**## 📝 Resume-Ready Description**
+## 📝 Resume-Ready Description
 
 Developed an end-to-end cricket player performance prediction system using Python.  
 Built ETL pipelines, engineered cricket-specific features, and trained ML + LSTM forecasting models to predict future runs and wickets.  
 Designed an interactive Streamlit dashboard to visualize player profiles, predictions, and forecasting trends.
 
 
-**## Why this project matters**
+
+## Why This Project Matters
 
 This project demonstrates practical, transferable skills used in industry analytics pipelines:
 - **End-to-end workflow**: data ingestion, cleaning, feature engineering, modeling, and interactive visualization.
