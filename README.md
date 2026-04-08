@@ -16,7 +16,7 @@ This project predicts batsman & bowler performance, visualizes insights, and pro
 
 This project processes raw cricket match data, engineers cricket-specific features, trains ML & forecasting models, and presents results in an interactive dashboard.
 
-It demonstrates:
+This project demonstrates both predictive modeling and analytical techniques, including cohort-based performance analysis and SQL-driven insights:
 
 - **Data Engineering**
 - **Feature Engineering**
@@ -100,7 +100,31 @@ A fully functional end-to-end data pipeline.
 
 - LSTM / ARIMA time-series forecasting  
 - Next 5-match prediction  
-- Downloadable forecast CSV  
+- Downloadable forecast CSV
+
+  ## 📊 Player Cohort Analysis
+
+Players were grouped by debut year and analyzed across their early career seasons to understand performance trends over time.
+
+### Key Findings:
+- Certain debut-year cohorts maintain consistent strike rates across seasons  
+- Some cohorts show performance decline after initial seasons  
+- Early-career performance is not always sustained over time  
+
+### Business Insight:
+This analysis helps identify long-term consistent players and differentiate between early performers and sustainable performers.
+
+## 🧪 SQL Analysis
+
+To extend the project beyond modeling, player data was analyzed using SQL (SQLite) to extract deeper insights.
+
+### Key Queries:
+- Player ranking by season using window functions (RANK)  
+- Venue-wise performance comparison  
+- Player consistency analysis across matches  
+
+### Insight:
+SQL-based analysis enables scalable querying of player performance and complements ML predictions with structured analytics.
 
 ---
 
@@ -179,7 +203,9 @@ Open browser at → http://localhost:8501
 - ✔ Modular Python Development  
 - ✔ Streamlit Dashboard Design  
 - ✔ Git & Version Control  
-- ✔ End-to-End Pipeline Building  
+- ✔ End-to-End Pipeline Building
+- ✔ Cohort Analysis (Player performance tracking over time)
+- ✔ SQL Analytics (Window functions, aggregation queries) 
 
 
 ## 📝 Resume-Ready Description
